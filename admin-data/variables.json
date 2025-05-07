@@ -1,0 +1,15 @@
+{
+    "DB_URL": "postgresql+psycopg2://postgres:postgres@postgres:5432/valorant_stats",
+    "DB_URL_dockeroperator": "postgresql+psycopg2://postgres:postgres@127.0.0.1:5432/valorant_stats",
+    "LOCAL_FOLDER": "/usr/local/airflow/backups/databases",
+    "endpoint_get_match_stats": "v4/match/{region}/{match_id}",
+    "endpoint_get_mmr_history": "v1/by-puuid/mmr-history/{region}/{puuid}",
+    "filtered_json_path": "tmp/filtered_stats.json",
+    "name": "Insira seu NICKNAME aqui",
+    "puuid": "Insira seu PUUID aqui",
+    "raw_json_path": "data/stats.json",
+    "region": "Insira sua REGIÃO aqui",
+    "table_match_stats": "match_stats",
+    "table_mmr_history": "mmr_history",
+    "tag": "Insira sua TAG aqui"
+}

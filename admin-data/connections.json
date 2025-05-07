@@ -1,0 +1,19 @@
+{
+    "henrikdev_api": {
+        "Connection Id": "henrikdev_api",
+        "Connection Type": "HTTP",
+        "Host": "https://api.henrikdev.xyz/valorant/",
+        "Extra": {
+            "headers": {
+              "Authorization": "Insira API KEY aqui"
+            }
+        }
+    },
+    "minio": {
+        "Connection Id": "minio",
+        "Connection Type": "Amazon Web Services",
+        "AWS Access Key ID": "minio",
+        "AWS Secret Access Key": "minio123",
+        "Extra": { "endpoint_url": "http://minio:9000" }
+    }
+}
